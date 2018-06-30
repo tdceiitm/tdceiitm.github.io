@@ -1,0 +1,164 @@
+---
+layout: default
+title: Facilities
+permalink: facilities
+---
+
+<section class="jumbotron" id="education-header">
+  <div class="bg-img">
+    <img src="images/carousel/carousel3_bg.jpg" />
+  </div>
+  <div class="container jumbotron-content text-center">
+    <h1 class="jumbotron-heading">Facilities</h1>
+    <p class="lead" >
+       The various experimental facilities available within TDCE are summed up here
+    </p>
+  </div>
+</section>
+
+
+<div class="container" id="facilities-box" >
+<div class="row justify-content-end" id="facilities-content-box">
+<div class="col-sm-2 d-sm-none d-md-none d-lg-block d-xl-block " id="sidenav-container">
+  <ul data-spy="affix" data-offset-top="53" class=" nav flex-column sidenav" id="facilties-sidenav">
+    <li class="nav-item">
+      <a class="nav-link active text-uppercase" href="#facilities-in-house" >In-house </a> 
+  </li>
+ <ul class="nav flex-column mb-3">
+ {% for topic in site.data.facilities %}
+   {% if topic.type contains "inhouse" %}
+     <li class="nav-item">
+       <a class="nav-link " href="{{ topic.title | slugify | prepend: '#'}}"> {{ topic.title }}</a>
+     </li>
+   {% endif %}
+ {% endfor %}
+ </ul>
+ <!-- #krithika -->
+    <li class="nav-item">
+      <a class="nav-link text-uppercase" href="#facilities-shared">Shared</a>
+    </li>
+ <ul class="nav flex-column mb-3">
+ {% for topic in site.data.facilities %}
+   {% if topic.type contains "shared" %}
+     <li class="nav-item">
+       <a class="nav-link " href="{{ topic.title | slugify | prepend: '#'}}"> {{ topic.title }}</a>
+     </li>
+   {% endif %}
+ {% endfor %}
+ </ul>
+ <!-- End of #krithika content -->
+
+  </ul>
+</div>
+
+
+<!--  Data comes here #krithika -->
+<div class="col-sm-10" >
+<div class="container" id="facilities-in-house" >
+    <div class="row">
+     <h1  class="col" >In-house facilities </h1>
+	</div>
+	  
+    {% for topic in site.data.facilities %}
+      {% if topic.type contains "inhouse" %}
+
+        {% assign content_order = forloop.index0 | modulo: 2 | plus:1  %}
+        {% assign image_order   = content_order | modulo:2 | plus:1  %}
+
+        {% if forloop.first == true  %}
+          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+        {% else %}
+          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+        {% endif %}
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">{{ topic.title }}</h2>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-7 {{content_order | prepend: 'order-md-'}}  ">
+            <p class="lead">{{ topic.description }}</p>
+          </div>
+          <div class="col-md-5 {{image_order | prepend: 'order-md-'}} ">
+            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+            <p class="lead">{{ topic.caption }}</p>
+            <h5> Faculty incharge: </h5> <p class="lead">{{topic.incharge}} </p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+</div>
+
+<hr class="featurette-divider" >
+<div class="container text-left" id="facilities-shared" >
+<!-- ><hr class="featurette-divider" id="facilities-shared"> -->
+<!--  <div class="container" id="facilities-shared" > -->
+
+      <h1  class="col" >Shared facilities </h1>
+
+    {% for topic in site.data.facilities %}
+      {% if topic.type contains "shared" %}
+
+        {% assign content_order = forloop.index0 | modulo: 2 | plus:1  %}
+        {% assign image_order   = content_order | modulo:2 | plus:1  %}
+
+        {% if forloop.first == true  %}
+          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+        {% else %}
+          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+        {% endif %}
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">{{ topic.title }}</h2>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-7 {{content_order | prepend: 'order-md-'}}  ">
+            <p class="lead">{{ topic.description }}</p>
+          </div>
+          <div class="col-md-5 {{image_order | prepend: 'order-md-'}} ">
+            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+            <p class="lead">{{ topic.caption }}</p>
+			<h5> Faculty incharge: </h5> <p class="lead">{{topic.incharge}} </p>
+			<h5> Labs: </h5> <p class="lead">{{topic.organisation}} </p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+<!-- <div class="container">  
+
+  <hr class="featurette-divider"> 
+  <div class="row">
+
+  <div class="col-sm-7">
+  <h2 class="section-title">In-house</h2>  
+  {% for course in site.data.in_house_facilities %} 
+    <div class="card project-card drop-shadow col-sm-12 mb-5">
+     <div class="card-body">
+       <h3 class="card-title"><a href="{{ course.link }}">{{ course.title }}</a></h3>
+       <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+       <p class="card-text">{{ course.description }}</p>
+     </div>
+   </div>
+  {% endfor %}
+  </div>
+
+  <div class="col-sm-5 ">
+  <h2 class="section-title">Shared</h2>
+
+  {% for course in site.data.shared_facilities %} 
+    <div class="card elective-card  col-sm-12 mb-1">
+     <div class="card-body">
+       <h4 class="card-title">{{ course.num }} : {{ course.title }}</h4>
+       <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+     </div>
+   </div>
+  {% endfor %}
+  </div>
+-->
+</div>
+
+</div>
+</div>

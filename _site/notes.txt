@@ -1,0 +1,22 @@
+Notes:
+- Member image: edit within images/members/
+- Member description: _members/
+
+- Carousel description: _data/carousel.yml
+- Create a logo for TDCE and copy the image to images/logo.jpg
+
+- Courses:
+Electives: _data/iitm_electives.yml
+NPTEL: _data/nptel.yml
+Core: _data/core_courses.yml
+
+- Projects: _project/
+- Research: _research/
+- Tabs on main page: _pages/
+
+- to increase number of bullet images on carousel: index.html
+
+- Facilities: _data/facilities.yml
+
+- Publications: Edit bib file, convert to json using
+python convert.py input.bib

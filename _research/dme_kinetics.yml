@@ -1,0 +1,9 @@
+---
+title: A comprehensively validated compact mechanism for dimethyl ether oxidation--an experimental and computational study
+description: Addition of oxygenates to diesel fuel has been found to reduce soot emissions and increase its resistance to extinction, which means that a combustion system can be made more stable even at higher strain rates and at the same time operate with reduced emissions.  In order to critically evaluate the overall combustion behaviour of DME via numerical simulations, an accurate as well as compact kinetic mechanism consisting of 23 species and 88 elementary reactions is proposed to describe the oxidation of DME in premixed as well as non-premixed systems. This mechanism is further reduced by introducing quasi-steady state assumptions for six intermediate species to finally obtain a 14-step global kinetic scheme. A code is developed in MATLAB to obtain these 14 global steps and their corresponding rate expressions in terms of the elementary reaction rates.
+more: https://krithikasivaram.github.io
+image: /images/research/dme_kinetics.jpg
+type: basic
+publication: https://www.sciencedirect.com/science/article/pii/S001021801830231
+cite: R. S. Khare et al., Combust. Flame, 196 (2018)
+---

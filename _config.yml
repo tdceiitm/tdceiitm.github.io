@@ -1,0 +1,27 @@
+title: Thermodynamics and Combustion Engineering Laboratory
+
+email:  varuns@iitm.ac.in
+
+description: >
+  This lab's goal ... 
+
+timezone: "Asia/Kolkata"
+  
+baseurl: "" 
+url    : ""
+
+include: ['_pages']
+
+collections:
+  news:
+  events:
+  project:
+  research:
+  members:
+  permalink: /:collection/:path/
+  output: true
+
+future: true
+
+author:
+    name: Krithika Narayanaswamy

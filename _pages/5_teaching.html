@@ -1,0 +1,83 @@
+---
+layout: default
+title: Teaching
+permalink: teaching
+---
+
+<section class="jumbotron" id="education-header">
+  <div class="bg-img">
+    <img src="images/carousel/carousel2_bg.jpg" />
+  </div>
+  <div class="container jumbotron-content text-center">
+    <h1 class="jumbotron-heading">Teaching</h1>
+    <p class="lead" >
+       Here is a list of various courses offered by the faculty associated with TDCE
+    </p>
+  </div>
+</section>
+
+
+<div class="container">  
+
+  <!-- <hr class="featurette-divider"> -->
+  <div class="row">
+
+  <div class="col-sm-6">
+  <h2 class="section-title">Core courses</h2>  
+  {% for course in site.data.core_courses %}  <!-- #krithika -->
+   <!-- > <div class="card project-card drop-shadow col-sm-12 mb-5"> #krithika --> 
+    <div class="card elective-card  col-sm-12 mb-1">
+     <div class="card-body">
+       <h4 class="card-title">{{ course.num }} : {{ course.title }}</h4>
+       <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+       <p class="card-text">{{course.description }}</p>
+     </div>
+   </div>
+  {% endfor %}
+ 
+ 
+ <h2 class="section-title">NPTEL courses</h2>
+ 
+   {% for course in site.data.nptel %} 
+     <div class="card elective-card  col-sm-12 mb-1">
+      <div class="card-body">
+      <h3 class="card-title"><a href="{{ course.link }}">{{ course.title }}</a></h3>
+        <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+ <!--       <h4 class="card-subtitle mb-2">Typically offered in {{ course.term }} semester  </h4> #krithika -->
+      </div>
+    </div>
+   {% endfor %}
+   
+  </div>
+
+  <div class="col-sm-6 ">
+  <h2 class="section-title">Electives</h2>
+
+  {% for course in site.data.iitm_electives %} 
+    <div class="card elective-card  col-sm-12 mb-1">
+     <div class="card-body">
+       <h4 class="card-title">{{ course.num }} : {{ course.title }}</h4>
+       <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+       <p class="card-text">{{course.description }}</p>	   
+<!--       <h4 class="card-subtitle mb-2">Typically offered in {{ course.term }} semester  </h4> #krithika -->
+     </div>
+   </div>
+  {% endfor %}
+  
+  <h2 class="section-title">More courses ...</h2>
+  
+    {% for course in site.data.other_courses %} 
+      <div class="card elective-card  col-sm-12 mb-1">
+       <div class="card-body">
+       <h3 class="card-title"><a href="{{ course.link }}">{{ course.title }}</a></h3>
+         <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+       </div>
+     </div>
+    {% endfor %}
+  
+  </div>
+
+
+  </div>
+</div>
+

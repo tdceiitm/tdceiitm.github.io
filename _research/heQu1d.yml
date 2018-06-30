@@ -1,0 +1,10 @@
+---
+title: A novel approach to composite propellant combustion modeling with a new Heterogeneous Quasi One-dimensional (HeQu1-D) framework
+description: A new and novel approach to modeling composite propellant burn rate behavior is proposed based on the fact that composite propellant combustion is largely boxed between the premixed limits – of pure AP and fine AP-binder (HTPB, here) whose burn behaviors are taken as known. The current strategy accounts for particle size distribution using the burn time averaging approach. The specialty of the present approach is that it invokes local extinction for fuel rich conditions for specific particle sizes when the heat balance causes the surface temperature to drop below the low pressure deflagration limit of AP; this feature allows for the prediction of extinction of propellant combustion. Comparisons of burn rate data over nearly thirty compositions from different sources appear excellent to good. 
+more:  https://www.sciencedirect.com/science/article/pii/S001021801630195X
+image: /images/research/default.jpg
+type: basic
+publication: https://www.sciencedirect.com/science/article/pii/S001021801630195X
+cite: S. Varunkumar et al. Combust. Flame, 173 (2016)
+---
+	

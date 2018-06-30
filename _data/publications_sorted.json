@@ -1,0 +1,14 @@
+[
+{'publisher': 'Elsevier', 'author': 'Varunkumar, S and Mukunda, HS', 'journal': 'Combustion and Flame', 'title': 'Aluminized composite propellant combustion modeling with Heterogeneous Quasi-One dimensional (HeQu1-D) approach', 'ID': 'varunkumar2018aluminized', 'volume': '192', 'pages': '59--70', 'year': '2018', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Taylor \\& Francis', 'author': 'Narayanaswamy, Krithika and Pepiot, Perrine', 'journal': 'Combustion Theory and Modelling', 'title': 'Simulation-driven formulation of transportation fuel surrogates', 'ID': 'narayanaswamy2018simulation', 'pages': '1--15', 'year': '2018', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Elsevier', 'author': 'Varunkumar, S and Zaved, M and Mukunda, HS', 'journal': 'Combustion and Flame', 'title': 'A novel approach to composite propellant combustion modeling with a new Heterogeneous Quasi One-dimensional (HeQu1-D) framework', 'ID': 'varunkumar2016novel', 'volume': '173', 'pages': '411--424', 'year': '2016', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Elsevier', 'author': 'Harish, A and Ranga, HR Rakesh and Babu, Aravindh and Raghavan, Vasudevan', 'journal': 'Fuel', 'title': 'Experimental study of flame characteristics and stability regimes of biogas--Air cross flow non-premixed flames', 'ID': 'harish2018experimental', 'volume': '223', 'pages': '334--343', 'year': '2018', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Elsevier', 'author': 'Sarma, Sumit and Chakraborty, Aritra and Manu, NM and Muruganandam, TM and Raghavan, Vasudevan and Chakravarthy, Satyanarayanan R', 'journal': 'Proceedings of the Combustion Institute', 'title': 'Spatio-temporal structure of vertically spreading flame over non-planar PMMA surfaces', 'number': '2', 'ID': 'sarma2017spatio', 'volume': '36', 'pages': '3027--3035', 'year': '2017', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Elsevier', 'author': 'Ambikasaran, Sivaram and Narayanaswamy, Krithika', 'journal': 'Proceedings of the Combustion Institute', 'title': 'An accurate, fast, mathematically robust, universal, non-iterative algorithm for computing multi-component diffusion velocities', 'number': '1', 'ID': 'ambikasaran2017accurate', 'volume': '36', 'pages': '507--515', 'year': '2017', 'ENTRYTYPE': 'article'}
+
+]

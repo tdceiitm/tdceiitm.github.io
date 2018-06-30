@@ -1,0 +1,32 @@
+- title: Jet flow and acoustics
+  num: ME5570
+  instructor: K. Srinivasan
+ 
+- title: Theory of fire propagation
+  num: ME6001
+  instructor: V. Raghavan 
+  term: Jan-May #Info not used for now
+
+- title: Computational heat and fluid flow
+  num: ME6006
+  instructor: T. Sundararajan 
+  term: Jan-May #Info not used for now
+
+- title: Fundamentals of Combustion
+  num: ME6060
+  instructor: Srikrishna Sahu 
+  term: Aug-Nov #Info not used for now
+
+- title: Rocket Technology
+  num: ME6100
+  instructor: S. Varunkumar
+  term: Aug-Nov #Info not used for now
+
+- title: Combustion Technology
+  num: ME6110
+  instructor: Krithika Narayanaswamy
+  description: COT for B. Tech
+  
+- title: Air breathing engines
+  num: ME6120
+  instructor: Babu Viswanathan

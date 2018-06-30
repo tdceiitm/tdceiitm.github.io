@@ -1,0 +1,34 @@
+    <nav class="navbar with-shadow navbar-expand-sm navbar-light fixed-top bg-light">
+
+    <div class="container">
+      <!-- Logo Section -->
+      <a class="navbar-brand" href="{{site.baseurl}}">
+        <img src="/images/iitm.jpg" width=50 class="mr-2" /> 
+       <!--
+       <span class="navbar-brand-expanded hidden-md-down">RBC DSAI</span>
+       <span class="logotext-tail"> IITM </span>
+       -->
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          {% for node in site.pages %}
+            {% if node.title %}
+              {% if page.url == node.url %}
+                <li class="nav-item active">
+              {% else %}
+                <li class="nav-item">
+              {% endif %}
+             <!--   <a class="nav-link" href="{{ node.url | prepend: site.baseurl }}"> {{ node.title }} </a> -->
+                <a class="nav-link" href="{{ node.url | prepend: site.url }}"> {{ node.title }} </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    </nav>

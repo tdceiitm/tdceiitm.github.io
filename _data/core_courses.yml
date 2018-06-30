@@ -1,0 +1,25 @@
+- title: Thermodynamics
+  num: ME1100
+  instructor: Krithika Narayanaswamy, V. Raghavan
+ 
+- title: Incompressible fluid flow
+  num: ME6040
+  instructor: Babu Viswanathan
+
+- title: Numerical methods in Thermal Engineering
+  num: ME5107/ME6150
+  instructor: S. Varunkumar
+  
+- title: Applied Thermodynamics
+  num: ME5105
+  instructor: K. Srinivasan
+
+- title: Principles of Thermal Energy Conversion
+  num: ME511X
+  instructor: V. Raghavan
+  description: Core for ID DD ES, Elective for B. Tech
+  term: Aug-Nov #Info not used for now
+
+- title: Measurements in Thermal Engineering
+  num: ME5109/ME6080
+  instructor: T. Sundararajan

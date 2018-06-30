@@ -1,0 +1,102 @@
+---
+layout: default
+title: Join Us
+permalink: joinUs
+---
+
+<section class="jumbotron text-center" id="education-header">
+  <div class="bg-img">
+    <img src="/images/carousel/carousel2_bg.jpg" />
+  </div>
+  <div class="container">
+    <div class="jumbotron-content">
+      <h1 class="jumbotron-heading">Open Positions</h1>
+ <p class="lead">Positions available for project assistants and prospective PhD/MS students are listed here</p>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+
+<!-- <div class="row">
+  <div class="col-12">
+  <h3 class="section-title">Post-doctoral fellows</h3>
+  <p class="lead">Please see <a href="https://www.iitm.ac.in/content/post-doctoral-fellowship-iit-madras">here</a> for details. Women candidates have <a href="https://www.iitm.ac.in/content/post-doctoral-fellowship-iitm-women">special fellowships</a> from IIT Madras. Send us your CV and a short write-up of your proposed area of research at <a href="mailto:rbcdsai@cse.iitm.ac.in">rbcdsai@cse.iitm.ac.in</a>.
+  </p>
+  </div>
+  </div>
+-->
+
+ <div class="row">
+  <div class="col-12">
+  <h3 class="section-title">Project Assistants/Associates</h3>
+  <p class="lead">Directly contact the faculty incharge if interested in any of these topics with your detailed CV and your Statement of Purpose.</p>
+
+   <!-- <hr class="featurette-divider" id="rs-topic-projects">
+    <hr class="featurette-divider " > -->
+     <div class="row">
+    
+    {% for project in site.project %} 
+      {% if project.type contains "project" %}
+    <div class="card col-sm-12  project-card  mb-5">
+     <div class="card-body drop-shadow">
+       <h3 class="card-title">{{ project.title }}</h3>
+       <h4 class="card-subtitle mb-3">{{ project.coordinators }}</h4>
+       <p class="card-text">{{ project.abstract }}</p>
+     </div>
+    </div>
+	{%endif %}
+    {% endfor %}
+    </div>
+
+</div>
+</div>
+
+
+ <div class="row">
+  <div class="col-12">
+  <h3 class="section-title">PhD/MS</h3>
+  <p class="lead">Applications are invited twice in an academic year by the ME department. The list of topics floated for the current intake is listed here. Directly contact the faculty incharge if interested in any of these topics with your detailed CV and your Statement of Purpose.</p>
+
+      <div class="row">
+   {% for project in site.project %} 
+      {% if project.type contains "MS" %}
+    <div class="card col-sm-12  project-card  mb-5">
+     <div class="card-body drop-shadow">
+       <h3 class="card-title">{{ project.title }} ({{project.type}})</h3>
+       <h4 class="card-subtitle mb-3">{{ project.coordinators }}</h4>
+       <p class="card-text">{{ project.abstract }}</p>
+     </div>
+    </div>
+	{%endif %}
+    {% endfor %}
+    </div>
+
+      <div class="row">
+   {% for project in site.project %} 
+      {% if project.type contains "PhD" %}
+    <div class="card col-sm-12  project-card  mb-5">
+     <div class="card-body drop-shadow">
+       <h3 class="card-title">{{ project.title }} ({{project.type}})</h3>
+       <h4 class="card-subtitle mb-3">{{ project.coordinators }}</h4>
+       <p class="card-text">{{ project.abstract }}</p>
+     </div>
+    </div>
+	{%endif %}
+    {% endfor %}
+    </div>
+
+</div>
+</div>
+
+
+ <div class="row">
+  <div class="col-12">
+  <h3 class="section-title">Internships</h3>
+  <p class="lead">For internship queries, please contact the faculty with your detailed CV and your Statement of Purpose.
+</div>
+</div>
+ 
+
+</div>
+
