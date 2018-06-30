@@ -1,7 +1,7 @@
 ---
 layout: default 
 title: People
-permalink: /people
+permalink: people
 ---
 
      {% assign member_type = "faculty, staff, student, alumni" | split: ", " %} 
@@ -46,7 +46,7 @@ permalink: /people
              {% if member.type contains member_type[tab_index]  %}
              <div class="card people-card col-sm-3 ">
                <div class="card-body drop-shadow-mild">
-               <img class="card-img-top  center-block" src="./images/members/{{ member.image }}" alt="{{ member.name }}">
+               <img class="card-img-top  center-block" src="/images/members/{{ member.image }}" alt="{{ member.name }}">
                  <h5 class="card-title "><a href="{{member.url}}">{{ member.name }}</a></h5>
 
                  {% assign designation_count = member.designations.size %} 
