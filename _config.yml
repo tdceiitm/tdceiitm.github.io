@@ -23,5 +23,8 @@ collections:
 
 future: true
 
-author:
+authors:
+  krithika:
     name: Krithika Narayanaswamy
+  sivaram:
+    name: Sivaram Ambikasaran
