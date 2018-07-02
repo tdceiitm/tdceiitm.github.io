@@ -9,6 +9,8 @@
 
 {'publisher': 'Elsevier', 'author': 'Sarma, Sumit and Chakraborty, Aritra and Manu, NM and Muruganandam, TM and Raghavan, Vasudevan and Chakravarthy, Satyanarayanan R', 'journal': 'Proceedings of the Combustion Institute', 'title': 'Spatio-temporal structure of vertically spreading flame over non-planar PMMA surfaces', 'number': '2', 'ID': 'sarma2017spatio', 'volume': '36', 'pages': '3027--3035', 'year': '2017', 'ENTRYTYPE': 'article'},
 
-{'publisher': 'Elsevier', 'author': 'Ambikasaran, Sivaram and Narayanaswamy, Krithika', 'journal': 'Proceedings of the Combustion Institute', 'title': 'An accurate, fast, mathematically robust, universal, non-iterative algorithm for computing multi-component diffusion velocities', 'number': '1', 'ID': 'ambikasaran2017accurate', 'volume': '36', 'pages': '507--515', 'year': '2017', 'ENTRYTYPE': 'article'}
+{'publisher': 'Elsevier', 'author': 'Ambikasaran, Sivaram and Narayanaswamy, Krithika', 'journal': 'Proceedings of the Combustion Institute', 'title': 'An accurate, fast, mathematically robust, universal, non-iterative algorithm for computing multi-component diffusion velocities', 'number': '1', 'ID': 'ambikasaran2017accurate', 'volume': '36', 'pages': '507--515', 'year': '2017', 'ENTRYTYPE': 'article'},
+
+{'volume': '196', 'doi': 'https://doi.org/10.1016/j.combustflame.2018.05.031', 'author': 'Rohit S. Khare and Senthil K. Parimalanathan and Vasudevan Raghavan and Krithika Narayanaswamy', 'url': 'https://www.sciencedirect.com/science/article/pii/S0010218018302311', 'journal': 'Combustion and Flame ', 'issn': '0010-2180', 'number': '', 'ID': 'Khare2018116', 'note': '', 'pages': '116 - 128', 'year': '2018', 'keywords': 'Dimethyl ether kinetics', 'title': 'A comprehensively validated compact mechanism for dimethyl ether oxidation: an experimental and computational study ', 'ENTRYTYPE': 'article'}
 
 ]
