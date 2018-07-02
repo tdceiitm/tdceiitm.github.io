@@ -23,9 +23,12 @@ Core: _data/core_courses.yml
 python convert.py 
 
 To make changes:
-git add path-to-new-gile
-git commit -m "message for commit"
-git push -u origin master
+> git pull origin master
+
+Make all changes
+> git add path-to-new-file
+> git commit -m "message for commit"
+> git push -u origin master
 
 TASKS:
 - Varun& SK - 3 pictures for carousel (images/carousel/)
