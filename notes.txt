@@ -18,10 +18,26 @@ Core: _data/core_courses.yml
 
 - Facilities: _data/facilities.yml
 
-- Publications: Edit bib file, convert to json using
-python convert.py input.bib
+- Publications: Edit _data/publications_sorted.bib file
+- Within _data, convert to json using
+python convert.py 
 
 To make changes:
 git add path-to-new-gile
 git commit -m "message for commit"
 git push -u origin master
+
+TASKS:
+- Varun& SK - 3 pictures for carousel (images/carousel/)
+- Varun - work on home page news items (_posts/)
+- Varun & SK - work on research topics (_research/)
+- Varun, SK, Krithika - Projects (_members/)
+- Varun, SK, Krithika - Populate student and alumni details (_members/)
+- Varun: populate ramamurthy's nptel: _data/nptel.yml
+- Varun & SK: add facilities: _data/facilities.yml
+- Varun: abstract for new MS/PhD student: _project/
+
+- KN - Remove "recent publications" from home
+- KN - Adds link for student self websites
+- KN: remove faculty names against courses taught
+
