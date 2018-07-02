@@ -20,3 +20,8 @@ Core: _data/core_courses.yml
 
 - Publications: Edit bib file, convert to json using
 python convert.py input.bib
+
+To make changes:
+git add path-to-new-gile
+git commit -m "message for commit"
+git push -u origin master
