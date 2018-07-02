@@ -1,9 +1,9 @@
-Notes:
+WHERE TO EDIT FOR WHAT:
 - Member image: edit within images/members/
 - Member description: _members/
 
 - Carousel description: _data/carousel.yml
-- Create a logo for TDCE and copy the image to images/logo.jpg
+- to increase number of bullet images on carousel: index.html
 
 - Courses:
 Electives: _data/iitm_electives.yml
@@ -14,7 +14,7 @@ Core: _data/core_courses.yml
 - Research: _research/
 - Tabs on main page: _pages/
 
-- to increase number of bullet images on carousel: index.html
+
 
 - Facilities: _data/facilities.yml
 
@@ -22,6 +22,7 @@ Core: _data/core_courses.yml
 - Within _data, convert to json using
 python convert.py 
 
+JULY 2, 2018
 To make changes:
 > git pull origin master
 
@@ -40,7 +41,10 @@ TASKS:
 - Varun & SK: add facilities: _data/facilities.yml
 - Varun: abstract for new MS/PhD student: _project/
 
-- KN - Remove "recent publications" from home
-- KN - Adds link for student self websites
-- KN: remove faculty names against courses taught
-
+Krithika's tasks: July 2, 2018
+- KN - Remove "recent publications" from home - DONE
+- KN - Adds link for student self websites - ALREADY EXISTS, SAMPLE ADDED: aditya.md
+- KN: remove faculty names against courses taught - Done
+- KN: Add home tab - DONE
+- KN: molecule picture
+- KN: Add logo to images/logo.jpg
