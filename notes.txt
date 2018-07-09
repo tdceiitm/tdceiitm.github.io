@@ -43,10 +43,10 @@ TASKS:
 - Varun - work on home page news items (_posts/)
 - Varun & SK - work on research topics (_research/)
 - Varun, SK, Krithika - Populate student and alumni details (_members/)
-- Varun: populate ramamurthy's nptel: _data/nptel.yml
 - Varun & SK: add facilities: _data/facilities.yml
 - Varun: abstract for new MS/PhD student: _project/
 - Varun, SK, Krithika - Projects (_project/)
+- Varun: Vision, Strength (thought)
 
 - KN - Remove "recent publications" from home - DONE
 - KN - Adds link for student self websites - ALREADY EXISTS, SAMPLE ADDED: aditya.md
@@ -54,3 +54,6 @@ TASKS:
 - KN: Add home tab - DONE
 - KN: molecule picture
 - KN: Add logo to images/logo.jpg
+- KN: Add carousel caption to right end
+- KN: Headers for research: Flames & Kinetics, Biomass & Coal, Propulsion.
+- KN: Carousel image size (or details) for correct depiction.
