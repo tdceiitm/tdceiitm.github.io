@@ -25,25 +25,24 @@ permalink: research
 <div class="col-sm-2 d-sm-none d-md-none d-lg-block d-xl-block " id="sidenav-container">
   <ul data-spy="affix" data-offset-top="53" class=" nav flex-column sidenav" id="research-sidenav">
     <li class="nav-item">
-      <a class="nav-link active text-uppercase" href="#rs-topic-basic" >Basic Research </a>
-      <ul class="nav flex-column mb-3">
+      <a class="nav-link active text-uppercase" href="#rs-topic-basic" >Flames and Kinetics </a>
+      <!-- <ul class="nav flex-column mb-3">
       {% for topic in site.research %}
-        {% if topic.type contains "basic" %}
+        {% if topic.type contains "flames" %}
           <li class="nav-item">
             <a class="nav-link " href="{{ topic.title | slugify | prepend: '#'}}"> {{ topic.title }}</a>
           </li>
         {% endif %}
       {% endfor %}
-      </ul>
+      </ul> -->
     </li>
     <li class="nav-item">
-      <a class="nav-link text-uppercase" href="#rs-topic-applied">Applied Research</a>
+      <a class="nav-link text-uppercase" href="#rs-topic-gasification">Gasification</a>
     </li>
-   <!--
+   
 	 <li class="nav-item">
-      <a class="nav-link  text-uppercase" href="#rs-topic-projects">Projects</a>
+      <a class="nav-link  text-uppercase" href="#rs-topic-propulsion">Propulsion</a>
     </li>
-    -->
   </ul>
 </div>
 <div class="col-sm-10" >
@@ -52,11 +51,11 @@ permalink: research
 
   <div class="container">
     <div class="row">
-      <h1  class="col" >Basic Research </h1>
+      <h1  class="col" >Flames and Kinetics </h1>
     </div>
 
     {% for topic in site.research %}
-      {% if topic.type contains "basic" %}
+      {% if topic.type contains "flames" %}
 
         {% assign content_order = forloop.index0 | modulo: 2 | plus:1  %}
         {% assign image_order   = content_order | modulo:2 | plus:1  %}
@@ -88,12 +87,12 @@ permalink: research
 
 
 
-    <hr class="featurette-divider" id="rs-topic-applied">
+    <hr class="featurette-divider" id="rs-topic-gasification">
     
-    <h1 class="mt-4"> Applied Research</h1>
+    <h1 class="mt-4"> Gasification</h1>
 
     {% for topic in site.research %}
-      {% if topic.type contains "applied" %}
+      {% if topic.type contains "gasification" %}
 
         {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
         {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
@@ -121,28 +120,35 @@ permalink: research
 
 
 
-<!--    <hr class="featurette-divider" id="rs-topic-projects">
-    <hr class="featurette-divider " >
+ <hr class="featurette-divider" id="rs-topic-propulsion">
+<h1 class="mt-4"> Propulsion</h1>
 
-    <div class="row">
-      <div class="col">
-         <h1> Projects </h1>
-    </div>
+    {% for topic in site.research %}
+      {% if topic.type contains "propulsion" %}
 
-     <div class="row">
-    
-    {% for project in site.project %} 
-    <div class="card col-sm-12  project-card  mb-5">
-     <div class="card-body drop-shadow">
-       <h3 class="card-title">{{ project.title }}</h3>
-       <h4 class="card-subtitle mb-3">{{ project.coordinators }}</h4>
-       <p class="card-text">{{ project.abstract }}</p>
-     </div>
-    </div>
+        {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
+        {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
+
+        {% if forloop.first == true  %}
+          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+        {% else %}
+          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+        {% endif %}
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">{{ topic.title }}</h2>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-7 {{content_order}}  ">
+            <p class="lead">{{ topic.description }}</p>
+          </div>
+          <div class="col-md-5 {{image_order}} ">
+            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+          </div>
+        </div>
+      {% endif %}
     {% endfor %}
-    </div>
--->
-  </div>
 
 </div>
 
