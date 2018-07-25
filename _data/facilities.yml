@@ -16,13 +16,6 @@
 - title: Biomass gasifier
   type: inhouse
   incharge: S. Varunkumar
-  description: Description comes here ...
-  image: ./images/facilities/facility_default.jpg
-  caption: "Caption comes here ..."
-  
-- title: Heat flux burner
-  type: inhouse
-  incharge: S. Varunkumar
-  description: Description comes here ...
+  description: 
   image: ./images/facilities/facility_default.jpg
   caption: "Caption comes here ..."
