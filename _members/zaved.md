@@ -1,9 +1,9 @@
 ---
-name: Ghulam Ahmed Ansari
+name: Mohammad Zaved
 image: default.png
-degree: Dual Degree
+degree: MS
 designations: 
-  - IBM-IRL Banglore
+  - Reault-Nissan
 graduated year: 2017
 bio:
 type: alumni
