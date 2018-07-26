@@ -8,7 +8,7 @@ description: >
 timezone: "Asia/Kolkata"
   
 baseurl: "" 
-url    : "https://tdceiitm.github.io/"
+url    : "https://tdceiitm.github.io"
 
 include: ['_pages']
 
