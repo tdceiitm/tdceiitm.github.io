@@ -1,19 +1,24 @@
 - title: Thermodynamics and Combustion Engineering Laboratory
   image: carousel/flame1_bg.jpg
   message: >
-    Founded in 2018 ...
+    Founded in 1958 with a vision to advance our knowledge in combustion. 
   link: about.html 
 
-- title: Houses the best facilites
+- title: Research
+  image: carousel/30mm_combined.jpg
+  message: >
+    Our research activities fall under the broad categories of flames, kinetics, propulsion, gasification, acoustics, and droplet dynamics, which address the fundamental as well as the applied and industry-driven challenges in combustion.  
+  link: research
+
+- title: Houses good experimental and computational facilites
   image: carousel/flame2_bg.jpg
   message: >
-   About facilities 
   link: facilities
   
 - title: Teaching
   image: carousel/flame3_bg.jpg
   message: >
-   About courses 
+   The lab offers several courses in the field of combustion
   link: teaching
 
 - title: Positions for project assistants and PhD/MS students are now available!
@@ -21,8 +26,3 @@
   message: 
   link: joinUs
 
-- title: Research
-  image: carousel/30mm_combined.jpg
-  message: 
-  caption:  Studies on non-premixed flames with Tsuji burner
-  link: research

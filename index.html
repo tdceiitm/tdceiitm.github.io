@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
     <div id="research-areas-carousel" class="carousel slide" data-ride="carousel">
 
       <ol class="carousel-indicators">
@@ -8,6 +9,7 @@ layout: default
          <li data-target="#research-areas-carousel" data-slide-to="1"></li>
          <li data-target="#research-areas-carousel" data-slide-to="2"></li> <!-- #krithika-->
          <li data-target="#research-areas-carousel" data-slide-to="3"></li> <!-- #krithika-->
+         <li data-target="#research-areas-carousel" data-slide-to="4"></li> <!-- #krithika-->
       </ol>
 
 
@@ -15,13 +17,13 @@ layout: default
 
         {% for item in site.data.carousel %}
         <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
-          <img class="{{forloop.index}}-slide" src="images/{{ item.image }}" alt="First slide">
+          <img class="{{forloop.index}}-slide" width="100%" src="images/{{ item.image }}" alt="First slide">
           <div class="container">
             <div class="carousel-caption  d-md-block">
               <h1> {{ item.title }} </h1>
               <p class="mx-auto"> {{ item.message }} </p>
               <p class="mx-auto"><a class="btn btn-lg btn-primary ripple" href="{{ item.link }}" role="button">Learn More</a></p> 
-		<p class="mx-auto"> {{ item.caption }} </p>
+<!--		<p class="mx-auto"> {{ item.caption }} </p> -->
             </div>
           </div>
         </div>
@@ -158,18 +160,7 @@ layout: default
         <div >
         <h3 class="section-title text-center"> Government and Industry Collaborators </h3>
         <div class="container">
-          <div class="row align-items-center no-gutters">
-             <div class="col-2 text-center right-shadow zindex-sticky py-2">
-              <img width="150"   class="my-2 pr-3 brand-logo" src="images/logo.jpg"> 
-            </div>
-            <div class="col-10">
-              <marquee behaviour="scroll" loop="1" scrollamount="2" direction="left" height="108" >
                   {% for collaborator in site.data.collaborators  %}
                        <img  width="150" class="my-2 mx-3" src="images/collaborators/{{ collaborator.image }}"> 
                   {% endfor %}
-              </marquee>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+	</div> 
