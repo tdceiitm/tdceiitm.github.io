@@ -1,8 +1,8 @@
 ---
-title: Computations and experiments in flames
+title: Compact kinetic model development for higher hydrocarbons
 coordinators: Krithika Narayanaswamy
-category: theory, experiments
+category: theory
 type: MS
 sub domain:
-abstract: Extend the bottom-up approach to kinetics of n-heptane. Perform experiments in counterflow flames with mixtures of gaseous fuels.
+abstract: Development of compact kinetic models are most essential to facilitate their use in reaction flow computations. A 23 species mechanism has been recently developed in our team using the bottom-up approach for dimethylether (DME). The objective of this project is to extend this approach for higher hydrocarbons. A major challenge in adopting this methodology for higher hydrocarbons is the development of the fuel specific sub-mechanism. For most of the higher hydrocarbons, such a sub-mechanism is not available and thus needs to be developed as a starting point to carry out this work. As a part of this work, automatic strategies to derive semi-lumped kinetic models will also be looked into.
 ---
