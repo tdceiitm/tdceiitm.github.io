@@ -52,8 +52,37 @@ TASKS:
 - KN - Adds link for student self websites - ALREADY EXISTS, SAMPLE ADDED: aditya.md
 - KN: remove faculty names against courses taught - Done
 - KN: Add home tab - DONE
+
 - KN: molecule picture
 - KN: Add logo to images/logo.jpg
 - KN: Add carousel caption to right end
 - KN: Headers for research: Flames & Kinetics, Biomass & Coal, Propulsion.
 - KN: Carousel image size (or details) for correct depiction.
+
+------- Meeting on Aug 3, 2018 -------
+- Indicate faculty advisor next to student details
+- Coordinators for each team:
+	- Varun's team: Varun
+	- Srikrishna's team: Nanda kumar
+	- Babu's team: Varun & Krithika
+	- Raghavan's team: Rakesh Ranga
+	- Srini's team: Anureka
+	- TS's team: Mithun Jyothi, Anjit
+	- Krithika's team: Krithika
+- Call for papers on home page - put up upcoming conferences - under "News"
+- Social gallery + Research gallery (results + images)
+
+Research headers
+- Acoustics
+- Atomization and sprays
+- Reacting flows
+- Gas dynamics
+
+Facilities
+- VR: Droplet combustion/vaporization
+- VR: Laminar flame rig
+- KS: Anechoic chamber, jet test facility
+- SS: Box of turbulence, Optical diagnostics
+- VS: Biomass and coal gasifier, Tsuji type opp-diff burner
+- TS: ??
+
