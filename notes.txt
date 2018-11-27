@@ -86,3 +86,6 @@ Facilities
 - VS: Biomass and coal gasifier, Tsuji type opp-diff burner
 - TS: ??
 
+- KN: To push changes if you have default username password set up:
+ git config --local credential.helper ""
+ git push origin master
