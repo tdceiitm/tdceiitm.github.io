@@ -36,7 +36,7 @@ permalink: research
       </ul> -->
     </li>
     <li class="nav-item">
-      <a class="nav-link text-uppercase" href="#rs-topic-gasification">Gasification</a>
+      <a class="nav-link text-uppercase" href="#rs-topic-biomass">Biomass and Coal</a>
     </li>
     <li class="nav-item">
       <a class="nav-link  text-uppercase" href="#rs-topic-propulsion">Propulsion</a>
@@ -80,14 +80,14 @@ permalink: research
 
 
 
-    <hr class="featurette-divider" id="rs-topic-gasification">
+    <hr class="featurette-divider" id="rs-topic-biomass">
  <div class="container">
     <div class="row">    
-    <h1 class="mt-4"> Gasification</h1>
+    <h1 class="mt-4"> Biomass and coal</h1>
 	</div>
 
     {% for topic in site.research %}
-      {% if topic.type contains "gasification" %}
+      {% if topic.type contains "biomass" %}
 
         {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
         {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}

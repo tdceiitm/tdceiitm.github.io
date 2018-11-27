@@ -56,7 +56,7 @@ TASKS:
 - KN: molecule picture
 - KN: Add logo to images/logo.jpg
 - KN: Add carousel caption to right end
-- KN: Headers for research: Flames & Kinetics, Biomass & Coal, Propulsion.
+- KN: Headers for research: Flames & Kinetics, Biomass & Coal, Propulsion. - DONE
 - KN: Carousel image size (or details) for correct depiction.
 
 ------- Meeting on Aug 3, 2018 -------

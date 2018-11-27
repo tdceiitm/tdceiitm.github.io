@@ -59,9 +59,11 @@ permalink: people
                  {% else %}
 
                    {% for designation in member.designations limit:2 %}
-                    <h6 class="card-subtitle mb-2">{{ designation }}
-                    </h6>
+                    <h6 class="card-subtitle mb-2">{{ designation }} </h6>
                    {% endfor %}
+                   {% for advisor in member.advisor limit:2 %}
+                   Advisor: <h6 class="card-subtitle mb-2">{{ advisor }} </h6>					
+				   {% endfor %}
                    {% if designation_count > 2 %}
                      <a href="{{member.name | slugify | prepend: '#' }}" class="toggle-btn drop-shadow-mild " title="see more affiliations"  data-toggle="collapse" > {{ designation_count | minus: 2 }} affiliations </a>
                      <div class="collapse" id="{{member.name | slugify }}" >
