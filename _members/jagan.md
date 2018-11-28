@@ -5,7 +5,7 @@ image:
 homepage:
 designations: 
   - PhD Scholar
-area: biomass gasification
+areas: biomass gasification
 bio:  
 email: 
 type: student

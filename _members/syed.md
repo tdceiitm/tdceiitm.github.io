@@ -5,7 +5,9 @@ image:
 homepage:
 designations: 
   - PhD Scholar
-area: non-premixed flames, syngas combustion
+areas: 
+  - Non-premixed flames
+  - Syngas combustion
 bio:  
 email: 
 type: student
