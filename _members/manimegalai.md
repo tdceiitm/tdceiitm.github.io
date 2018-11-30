@@ -4,7 +4,7 @@ name: Manimegalai
 image: manimegalai.jpg
 designations: 
   - Admin
-area:
+areas:
 bio:
 email:
 type: staff
