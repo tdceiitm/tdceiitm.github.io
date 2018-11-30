@@ -105,10 +105,13 @@ permalink: research
         <div class="row featurette">
           <div class="col-md-7 {{content_order}}  ">
             <p class="lead">{{ topic.description }}</p>
-          </div>
-          <div class="col-md-5 {{image_order}} ">
-            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
-          </div>
+  		    <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
+			</div>
+			<div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
+				<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+				<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
+            </div>
         </div>
       {% endif %}
     {% endfor %}
@@ -140,14 +143,161 @@ permalink: research
         <div class="row featurette">
           <div class="col-md-7 {{content_order}}  ">
             <p class="lead">{{ topic.description }}</p>
-          </div>
-          <div class="col-md-5 {{image_order}} ">
-            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
-          </div>
+  		    <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
+			</div>
+			<div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
+				<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+				<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
+            </div>
         </div>
       {% endif %}
     {% endfor %}
 
+ <hr class="featurette-divider" id="rs-topic-acoustics">
+<div class="container">
+    <div class="row"> 
+  <h1 class="mt-4"> Acoustics and Instabilites</h1>
+</div>
+
+    {% for topic in site.research %}
+      {% if topic.type contains "acoustics" %}
+
+        {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
+        {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
+
+        {% if forloop.first == true  %}
+          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+        {% else %}
+          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+        {% endif %}
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">{{ topic.title }}</h2>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-7 {{content_order}}  ">
+            <p class="lead">{{ topic.description }}</p>
+  		    <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
+			</div>
+			<div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
+				<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+				<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
+            </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+	
+	 <hr class="featurette-divider" id="rs-topic-sprays">
+	<div class="container">
+	    <div class="row"> 
+	  <h1 class="mt-4"> Atomization and Sprays</h1>
+	</div>
+
+	    {% for topic in site.research %}
+	      {% if topic.type contains "sprays" %}
+
+	        {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
+	        {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
+
+	        {% if forloop.first == true  %}
+	          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+	        {% else %}
+	          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+	        {% endif %}
+	        <div class="row mb-4">
+	          <div class="col-md-12">
+	            <h2 class="featurette-heading">{{ topic.title }}</h2>
+	          </div>
+	        </div>
+	        <div class="row featurette">
+	          <div class="col-md-7 {{content_order}}  ">
+	            <p class="lead">{{ topic.description }}</p>
+	  		    <h5> View more <a href="{{topic.more}}">here</a></h5> 
+				<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
+				</div>
+				<div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
+					<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+					<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
+	            </div>
+	        </div>
+	      {% endif %}
+	    {% endfor %}
+		
+	 <hr class="featurette-divider" id="rs-topic-reactingflows">
+	<div class="container">
+	    <div class="row"> 
+	  <h1 class="mt-4"> Reacting flows</h1>
+	</div>
+
+	    {% for topic in site.research %}
+	      {% if topic.type contains "reactingflows" %}
+
+	        {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
+	        {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
+
+	        {% if forloop.first == true  %}
+	          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+	        {% else %}
+	          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+	        {% endif %}
+	        <div class="row mb-4">
+	          <div class="col-md-12">
+	            <h2 class="featurette-heading">{{ topic.title }}</h2>
+	          </div>
+	        </div>
+	        <div class="row featurette">
+	          <div class="col-md-7 {{content_order}}  ">
+	            <p class="lead">{{ topic.description }}</p>
+	  		    <h5> View more <a href="{{topic.more}}">here</a></h5> 
+				<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
+				</div>
+				<div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
+					<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+					<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
+	            </div>
+	        </div>
+	      {% endif %}
+	    {% endfor %}	
+
+	 <hr class="featurette-divider" id="rs-topic-gasdynamics">
+	<div class="container">
+	    <div class="row"> 
+	  <h1 class="mt-4"> Gas dynamics</h1>
+	</div>
+
+	    {% for topic in site.research %}
+	      {% if topic.type contains "gas dynamics" %}
+
+	        {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
+	        {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
+
+	        {% if forloop.first == true  %}
+	          <hr class="featurette-divider first" id="{{topic.title | slugify }}">
+	        {% else %}
+	          <hr class="featurette-divider" id="{{topic.title | slugify }}">
+	        {% endif %}
+	        <div class="row mb-4">
+	          <div class="col-md-12">
+	            <h2 class="featurette-heading">{{ topic.title }}</h2>
+	          </div>
+	        </div>
+	        <div class="row featurette">
+	          <div class="col-md-7 {{content_order}}  ">
+	            <p class="lead">{{ topic.description }}</p>
+	  		    <h5> View more <a href="{{topic.more}}">here</a></h5> 
+				<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
+				</div>
+				<div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
+					<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+					<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
+	            </div>
+	        </div>
+	      {% endif %}
+	    {% endfor %}
+		
 </div>
 
 </div>
