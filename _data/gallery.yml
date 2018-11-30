@@ -5,3 +5,7 @@
 - caption: Non-premixed flames with counterflow burner 
   image: counterflow_flame.jpg
   width: 40
+
+- caption: Flameless LPG combustion with jets with large velocity differential
+  image: MILD.jpg
+  width: 36
