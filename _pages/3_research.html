@@ -83,8 +83,9 @@ permalink: research
           </div>
           <div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
             <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
-			<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
-          </div>
+			<h6> 
+			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+</div>
         </div>
       {% endif %}
     {% endfor %}
@@ -128,7 +129,7 @@ permalink: research
         </div>
       {% endif %}
     {% endfor %}
-
+</div>
 
 <div class="col-sm-10" >
  <hr class="featurette-divider" id="rs-topic-propulsion">
@@ -167,6 +168,7 @@ permalink: research
         </div>
       {% endif %}
     {% endfor %}
+</div>
 
 <div class="col-sm-10" >
  <hr class="featurette-divider" id="rs-topic-acoustics">
@@ -204,6 +206,7 @@ permalink: research
         </div>
       {% endif %}
     {% endfor %}
+</div>
 	
 	<div class="col-sm-10" >
 	 <hr class="featurette-divider" id="rs-topic-sprays">
@@ -241,6 +244,7 @@ permalink: research
 	        </div>
 	      {% endif %}
 	    {% endfor %}
+</div>
 		
 <div class="col-sm-10" >
 	 <hr class="featurette-divider" id="rs-topic-reactingflows">
@@ -278,6 +282,7 @@ permalink: research
 	        </div>
 	      {% endif %}
 	    {% endfor %}	
+</div>
 
 <div class="col-sm-10" >
 	 <hr class="featurette-divider" id="rs-topic-gasdynamics">
@@ -314,8 +319,7 @@ permalink: research
 	            </div>
 	        </div>
 	      {% endif %}
-	    {% endfor %}
-		
+	    {% endfor %}		
 </div>
 
 </div>
