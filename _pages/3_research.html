@@ -96,15 +96,18 @@ permalink: research
     <hr class="featurette-divider" id="rs-topic-biomass">
  <div class="container">
     <div class="row">    
-    <h1 class="mt-4"> Biomass and coal</h1>
+     <h1  class="col" > Biomass and coal</h1>
 	</div>
 
     {% for topic in site.research %}
       {% if topic.type contains "biomass" %}
 
+     {% assign content_order = forloop.index0 | modulo: 2 | plus:1  %}
+        {% assign image_order   = content_order | modulo:2 | plus:1  %}
+<!--
  {% assign content_order = forloop.index | modulo: 2 | add:1 | prepend: 'order-md-' %}
  {% assign image_order   = content_order | add: 1 | modulo:2 | add:1 | prepend: 'order-md-' %}
- 
+ -->
         {% if forloop.first == true  %}
           <hr class="featurette-divider first" id="{{topic.title | slugify }}">
         {% else %}
