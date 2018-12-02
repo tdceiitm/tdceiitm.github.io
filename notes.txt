@@ -19,7 +19,8 @@ WHERE TO EDIT FOR WHAT:
 - Facilities: _data/facilities.yml
 
 - Publications: 
-	- Edit _data/publications_sorted.bib file
+	- Edit _data/publications_faculty.bib file
+	- cat all: cat file1 file2 > publications_sorted.bib
 	- Within _data, convert to json using
 	> python convert.py 
 
