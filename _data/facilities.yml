@@ -6,16 +6,58 @@
   image: ./images/facilities/counterFlowBurner.jpg
   caption: "Caption comes here ..."
   
-- title: Box turbulence generator
+- title: Box of turbulence
   type: inhouse
   incharge: Srikrishna Sahu
   description: Description comes here ...
   image: ./images/facilities/facility_default.jpg
   caption: "Caption comes here ..."
   
+- title: Optical diagnostics
+  type: inhouse
+  incharge: Srikrishna Sahu
+  description: Description comes here ...
+  image: ./images/facilities/facility_default.jpg
+  caption: "Caption comes here ..."
+
 - title: Biomass gasifier
   type: inhouse
   incharge: S. Varunkumar
+  description: 
+  image: ./images/facilities/facility_default.jpg
+  caption: "Caption comes here ..."
+
+- title: Coal gasifier
+  type: inhouse
+  incharge: S. Varunkumar
+  description: 
+  image: ./images/facilities/facility_default.jpg
+  caption: "Caption comes here ..."
+
+- title: Tsuji type opp-diff burner
+  type: inhouse
+  incharge: S. Varunkumar
+  description: 
+  image: ./images/facilities/facility_default.jpg
+  caption: "Caption comes here ..."
+
+- title: Droplet vaporization and combustion
+  type: inhouse
+  incharge: V. Raghavan
+  description: 
+  image: ./images/facilities/facility_default.jpg
+  caption: "Caption comes here ..."
+
+- title: Laminar flame rig
+  type: inhouse
+  incharge: V. Raghavan
+  description: 
+  image: ./images/facilities/facility_default.jpg
+  caption: "Caption comes here ..."
+
+- title: Anechoic chamber and jet testing
+  type: inhouse
+  incharge: K. Srinivasan
   description: 
   image: ./images/facilities/facility_default.jpg
   caption: "Caption comes here ..."
