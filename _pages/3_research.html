@@ -67,6 +67,8 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -76,7 +78,28 @@ permalink: research
             <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
-		  </div>
+           </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
         </div>
       {% endif %}
     {% endfor %}
@@ -105,6 +128,8 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -115,7 +140,28 @@ permalink: research
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
            </div>
-        </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
+       </div>
       {% endif %}
     {% endfor %}
 </div>
@@ -140,6 +186,8 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -150,7 +198,28 @@ permalink: research
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
            </div>
-        </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
+       </div>
       {% endif %}
     {% endfor %}
 </div>
@@ -175,6 +244,8 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -185,7 +256,28 @@ permalink: research
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
            </div>
-        </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
+       </div>
       {% endif %}
     {% endfor %}
 </div>
@@ -211,6 +303,8 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -220,10 +314,31 @@ permalink: research
             <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
-	            </div>
-	        </div>
-	      {% endif %}
-	    {% endfor %}
+           </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
+       </div>
+      {% endif %}
+    {% endfor %}
 </div>
 	
 	
@@ -246,6 +361,8 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -255,10 +372,31 @@ permalink: research
             <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
-	            </div>
-	        </div>
-	      {% endif %}
-	    {% endfor %}	
+           </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
+       </div>
+      {% endif %}
+    {% endfor %}
 </div>
 
 
@@ -281,6 +419,9 @@ permalink: research
         {% endif %}
             <h2 class="featurette-heading">{{ topic.title }}</h2>
         <div class="row featurette">
+			<!-- # No images => span entire width -->
+		{% if topic.image contains "." %} 	
+			{% unless topic.span contains "full"  %}
           <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
             <h5> View more <a href="{{topic.more}}">here</a></h5> 
@@ -290,8 +431,29 @@ permalink: research
             <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
 			<h6> 
 			<a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
-	            </div>
-	        </div>
+           </div>
+			{% else  %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+         <div class="col-md-12 {{image_order | prepend: 'order-md-'}} ">
+         <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+            </div>
+			</div>
+			{% endunless %}
+		{% else %}
+ 			<div class="col-md-12 {{content_order | prepend: 'order-md-'}}  ">
+<p class="lead">{{ topic.description }}</p>
+   		    {%if topic.more contains "http"%}
+		  <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			{% endif %}
+			<h6><a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> <br>          
+			</div>
+        {% endif %}
+        </div>
 	      {% endif %}
 	    {% endfor %}		
 </div>

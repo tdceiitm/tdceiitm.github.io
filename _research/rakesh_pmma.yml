@@ -2,8 +2,11 @@
 title: A comprehensively validated compact mechanism for dimethyl ether oxidation--an experimental and computational study
 description: Experimental and numerical investigations of upward and downward flame spread over flat polymethyl methacrylate (PMMA) slabs are presented here. Experiments have been carried out using PMMA slabs of different thickness in the range of 1.6 mm–5.4 mm. Downward and upward flame spread processes have been recorded under atmospheric pressure and normal gravity conditions. Careful repeatable high resolution measurements of temperature and species fields have also been carried out, to fill the scarcity of such data in literature. These data illustrate the structure and spread rates of flames established over PMMA slabs. A simple numerical model, used widely to simulate flame spread over condensed surfaces, called Fire Dynamics Simulator (FDS), has been employed to numerically simulate the experimental cases. Infinite rate chemistry and sublimation based interface model have been used. FDS is economical when compared to CFD tools such as FLUENT and OpenFOAM. It provides predictive results when compared to theoretical models. Results from FDS have been validated against numerical and experimental data from literature, by comparing quantities such as mass loss rate, flame spread velocity and flame structure. FDS is seen to capture essential transport processes of a spreading diffusion flame. Even though discrepancies have been observed between the numerical and experimental results near the fuel surface, the overall comparison of the trends has been quite reasonable. Numerical model is capable of predicting the unsteady and steady features of downward spread as well as transient rapid upward flame spread, as observed in the experimental results. Detailed structure and flow field have been presented and discussed.
 more: 
-image: /images/research/rakesh_ate.jpg
+image: images/research/rakesh_ate.jpg
+span: half
 type: reactingflows
-publication: https://www.sciencedirect.com/science/article/pii/S1359431117360702
-cite: H R Rakesh Ranga et al., Applied Thermal Engineering, 130, 2018, (477-491)
+publication: 
+   - https://www.sciencedirect.com/science/article/pii/S1359431117360702
+cite: 
+   - H R Rakesh Ranga et al., Applied Thermal Engineering, 130, 2018, (477-491)
 ---
