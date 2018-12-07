@@ -1,0 +1,10 @@
+---
+title: Experimental study of burning of methanol fed porous spheres in grid generated turbulent field
+description: Experimental investigation of the effect of flow turbulence on the steady state burning of methanol is reported. A vertical air tunnel has been mounted with a grid at its exit plane in order to generate turbulence in the free jet stream. The flow field has been characterized using a hot-wire anemometer. Mean and fluctuating flow velocities and integral scale have been measured at an axial location of around 2 times its exit diameter (D). Three types of grids have been used. Classical porous sphere experiments have been carried out to analyze the steady-state burning rate of methanol over the surface of an inert sphere having constant diameter. Experiments have been done at atmospheric pressure under ambient temperature and normal gravity conditions. A porous sphere is positioned at an axial location of 2D, where the approaching flow has been characterized in detail. Results show that the burning rate as well as the flame stability are greatly influenced by the free stream turbulence. The ratio of turbulent time scales and the chemical time scales for grid mounted cases have been estimated from the integral scale, root mean square velocity fluctuation, flame stand-off distance and the vapor blowing velocity. Empirical expression relating the normalized burning rates to diffusion scale based Damköhlar number has been presented. A correlation for Sherwood number as a function of Reynolds number and turbulent intensity has also been proposed.
+more: 
+image: /images/research/Senthil_1.JPG
+span: full
+type: reactingflows
+publication: https://www.sciencedirect.com/science/article/pii/S0017931017309237
+cite: P. Senthil Kumar et al., International Journal of Heat and Mass Transfer, 114 (2017) 354-362 
+---

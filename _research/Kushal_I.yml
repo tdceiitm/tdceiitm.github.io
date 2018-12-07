@@ -1,0 +1,10 @@
+---
+title: Effects of orifice divergence on hollow cone spray at low injection pressures
+description: In this work, the effects of orifice divergence on spray characteristics have been reported. Parameters such as spray cone angle, liquid sheet thickness, coefficient of discharge, break-up length, and Sauter mean diameter are greatly affected by the half divergence angle at orifice exit. An experimental investigation is carried out in which water sprays from five atomizers having half divergence angle values of 0 degrees, 5 degrees, 10 degrees, 15 degrees, and 20 degrees are studied at different injection pressures. Image processing techniques are used to measure spray cone angle and break-up length from spray images, whereas the sheet thickness outside the orifice exit is obtained using the scattered light from a thin Nd-YAG Laser beam. Phase Doppler interferometry is also used to obtain the Sauter mean diameter at different axial locations. A few numerical simulations based on the volume of fluid method are included to obtain physical insight of the liquid film development and air core flow inside the atomizer. It is observed that the liquid sheet thickness as well as tangential and radial components of velocity at orifice exit are modified drastically with a change in half divergence angle. As a consequence, the droplet size distribution is also altered by variation in the nozzle divergence angle. The mechanism responsible for such variations in the spray behavior is identified as the formation of an air core or air cone inside the liquid injector as a result of the swirl imparted to the liquid flow.
+more: https://journals.sagepub.com/doi/full/10.1177/0954410018813432
+image: /images/research/Kushal_streamlines.png
+span: full
+type: sprays
+publication: https://journals.sagepub.com/doi/full/10.1177/0954410018813432
+cite: Ghate, K., & Sundararajan, T. (2018). Effects of orifice divergence on hollow cone spray at low injection pressures. Proceedings of the Institution of Mechanical Engineers, Part G, Journal of Aerospace Engineering. 
+---

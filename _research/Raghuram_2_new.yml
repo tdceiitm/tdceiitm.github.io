@@ -1,0 +1,10 @@
+---
+title: Numerical study of transient evaporation of moving two-component fuel droplets
+description:  This paper presents the numerical simulation of evaporation of a moving two-component liquid fuel spherical droplet under atmospheric pressure. The transient two-phase numerical model includes variations of thermo-physical properties as functions of temperature and species concentration in liquid and vapor phases, multi-component diffusion, and surface tension effects. The model has been validated using the experimental data available in the literature for suspended heptane-decane-blended droplets evaporating under a forced convective air environment. The validated model is used to study the vaporization characteristics of moving binary droplets. The blends considered in this study are isooctane blended with ethanol and decane blended with methyl-butyrate. The temporal variations of the evaporation constant, droplet Reynolds number, and drag coefficients are presented. Variations of integrated quantities, such as the time-averaged evaporation constant, droplet lifetime, and droplet final penetration distance as a function of blend composition, are also presented. The behavior of isooctane-ethanol blends is seen to be quite different from that of methyl-butyrate-decane blends.
+more: 
+image: /images/research/Raghuram_2.JPG
+span: full
+type: sprays
+publication: http://www.dl.begellhouse.com/download/article/76f681c23169b7c1/AAS-6095.pdf 
+cite: S. Raghuram & Vasudevan Raghavan, Atomization and Sprays, 22(6)(2012)493–513   
+---

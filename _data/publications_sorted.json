@@ -17,6 +17,18 @@
 
 {'publisher': 'Elsevier', 'author': 'Harish, A and Ranga, HR Rakesh and Babu, Aravindh and Raghavan, Vasudevan', 'journal': 'Fuel', 'title': 'Experimental study of flame characteristics and stability regimes of biogas--Air cross flow non-premixed flames', 'ID': 'harish2018experimental', 'volume': '223', 'pages': '334--343', 'year': '2018', 'ENTRYTYPE': 'article'},
 
-{'publisher': 'Elsevier', 'author': 'Sarma, Sumit and Chakraborty, Aritra and Manu, NM and Muruganandam, TM and Raghavan, Vasudevan and Chakravarthy, Satyanarayanan R', 'journal': 'Proceedings of the Combustion Institute', 'title': 'Spatio-temporal structure of vertically spreading flame over non-planar PMMA surfaces', 'number': '2', 'ID': 'sarma2017spatio', 'volume': '36', 'pages': '3027--3035', 'year': '2017', 'ENTRYTYPE': 'article'}
+{'publisher': 'Elsevier', 'author': 'Sarma, Sumit and Chakraborty, Aritra and Manu, NM and Muruganandam, TM and Raghavan, Vasudevan and Chakravarthy, Satyanarayanan R', 'journal': 'Proceedings of the Combustion Institute', 'title': 'Spatio-temporal structure of vertically spreading flame over non-planar PMMA surfaces', 'number': '2', 'ID': 'sarma2017spatio', 'volume': '36', 'pages': '3027--3035', 'year': '2017', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Begel House Inc.', 'author': 'Kumar, Abhijeet and Sahu, Srikrishna', 'journal': 'Journal of Flow Visualization and Image Processing', 'title': 'Optical Visualization and measurement of liquid jet core in a coaxial atomizer with annual swirling air', 'ENTRYTYPE': 'article', 'year': '2019', 'ID': 'kumaroptical'},
+
+{'publisher': 'Elsevier', 'author': 'Manish, M and Sahu, Srikrishna', 'journal': 'Experimental Thermal and Fluid Science', 'title': 'Droplet clustering and local spray unsteadiness in air-assisted sprays', 'ID': 'manish2019droplet', 'volume': '100', 'pages': '89--103', 'year': '2019', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Cambridge University Press', 'author': 'Sahu, S and Hardalupas, Y and Taylor, AMKP', 'journal': 'Journal of Fluid Mechanics', 'title': 'Interaction of droplet dispersion and evaporation in a polydispersed spray', 'ID': 'sahu2018interaction', 'volume': '846', 'pages': '37--81', 'year': '2018', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'SAGE Publications Sage UK: London, England', 'author': 'Kumar, Abhijeet and Sahu, Srikrishna', 'journal': 'International Journal of Spray and Combustion Dynamics', 'title': 'Liquid jet breakup unsteadiness in a coaxial air-blast atomizer', 'ID': 'kumar2018liquid', 'pages': '1756827718760905', 'year': '2018', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Elsevier', 'author': 'Charalambides, Alexandros G and Sahu, Srikrishna and Hardalupas, Yannis and Taylor, Alexander MKP and Urata, Yunichi', 'journal': 'Applied Energy', 'title': 'Evaluation of Homogeneous Charge Compression Ignition (HCCI) autoignition development through chemiluminescence imaging and Proper Orthogonal Decomposition', 'ID': 'charalambides2018evaluation', 'volume': '210', 'pages': '288--302', 'year': '2018', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Cambridge University Press', 'author': 'Sahu, S and Hardalupas, Y and Taylor, AMKP', 'journal': 'Journal of Fluid Mechanics', 'title': 'Droplet--turbulence interaction in a confined polydispersed spray: effect of turbulence on droplet dispersion', 'ID': 'sahu2016droplet', 'volume': '794', 'pages': '267--309', 'year': '2016', 'ENTRYTYPE': 'article'}
 
 ]

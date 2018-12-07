@@ -1,0 +1,10 @@
+---
+title: Two-phase transient simulations of evaporation characteristics of two-component liquid fuel droplets at high pressures
+description: This paper presents comprehensive numerical simulations of evaporation of droplets constituted of two liquid fuels in high pressure nitrogen ambient under normal gravity condition. A transient, two-phase and axisymmetric numerical model has been used for the simulations. Transport processes in liquid- and vapor-phases have been solved along with interface coupling conditions. Gas-phase non-idealities, solubility of ambient gas in liquid-phase, and pressure and temperature based variable thermo-physical properties in both liquid- and vapor-phases are considered in the numerical model. Phase equilibrium has been estimated using fugacity coefficients of all species in both phases. The range of Weber number has been chosen such that droplet remains almost spherical throughout its lifetime. Simulations have been carried out until the droplet surface regresses to one-tenth of its initial value or when the critical state for the mixture is reached. The numerical model has been quantitatively validated against the experimental data available in literature. The validated model is used to systematically study the evaporation characteristics of suspended n-heptane-hexadecane droplets in nitrogen ambient. The effects of the pressure, temperature, initial liquid-phase composition and forced convection velocity on evaporation characteristics have been discussed in detail.
+more: 
+image: /images/research/Saroj_paper.JPG
+span: full
+type: sprays
+publication: https://www.sciencedirect.com/science/article/pii/S0301932218304002
+cite: Saroj Ray et al., International Journal of Multiphase Flow, [in press]
+---
