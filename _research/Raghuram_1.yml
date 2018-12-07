@@ -1,0 +1,10 @@
+---
+title: Two-phase modeling of evaporation characteristics of blended methanol-ethanol droplets
+description:  The paper presents a two-phase numerical model to simulate transient vaporization of a spherical two component liquid fuel droplet. The model considers variation of thermo-physical properties in both liquid and vapor-phases, as functions of temperature and species concentrations. Multi-component diffusion and surface tension effects are also considered. The model has been validated using the experimental data available in literature. The validated model is used to study the vaporization characteristics of both suspended and moving methanol–ethanol blended droplets in an atmospheric pressure environment. Relative strengths of forced convection and Marangoni convection are studied and compared for both suspended and moving droplets. Results in terms of streamlines, isotherms and isopleths at different time instants are reported and discussed. For low relative velocities, solutal Marangoni effects are seen to be important.
+more: 
+image: /images/research/Raghuram_1.jpg
+span: full
+type: sprays
+publication: https://www.sciencedirect.com/science/article/pii/S0301932213000037
+cite: S. Raghuram et al., International Journal of Multiphase Flow, 52 (2013) 46-59  
+---

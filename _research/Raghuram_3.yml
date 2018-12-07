@@ -1,0 +1,10 @@
+---
+title: Numerical study of Marangoni convection during transient evaporation of two-component droplet under forced convective environment
+description: Numerical simulations of the evaporation of stationary, spherical, two-component liquid droplets in a laminar, atmospheric pressure, forced convective hot-air environment are presented. The transient two-phase numerical model includes multi-component diffusion, a comprehensive method to deal with the interface including the surface tension effects and variation of thermo-physical properties as a function of temperature and species concentration in both liquid- and vapor-phases. The model has been validated using the experimental data available in literature for suspended heptane-decane blended droplets evaporating under a forced convective air environment. The validated model is used to study the vaporization characteristics of heptane-decane droplets under different convective conditions. For an initial composition having 75% by volume of more volatile fuel component, the evaporation transients are presented in terms of variations in interface quantities. Flow, species and temperature fields are presented at several time instants to show the relative strengths of forced convection and Marangoni convection. Results show that at low initial Reynolds numbers, the solutal Marangoni effects induce a flow-field within the liquid droplet, which opposes the flow of the external convective field. The strength of this liquid-phase flow field increases with the consumption of the more volatile fuel component. 
+more: 
+image: /images/research/Raghuram_3.JPG
+span: half
+type: sprays
+publication: https://www.sciencedirect.com/science/article/pii/S0017931012006461 
+cite: S. Raghuram et al., International Journal of Heat and Mass Transfer, 55 (2012) 7949-7957
+---
