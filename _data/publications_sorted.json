@@ -19,7 +19,7 @@
 
 {'publisher': 'Elsevier', 'author': 'Sarma, Sumit and Chakraborty, Aritra and Manu, NM and Muruganandam, TM and Raghavan, Vasudevan and Chakravarthy, Satyanarayanan R', 'journal': 'Proceedings of the Combustion Institute', 'title': 'Spatio-temporal structure of vertically spreading flame over non-planar PMMA surfaces', 'number': '2', 'ID': 'sarma2017spatio', 'volume': '36', 'pages': '3027--3035', 'year': '2017', 'ENTRYTYPE': 'article'},
 
-{'publisher': 'Begel House Inc.', 'title': 'OPTICAL VISUALIZATION AND MEASUREMENT OF LIQUID JET CORE IN A COAXIAL ATOMIZER WITH ANNULAR SWIRLING AIR', 'journal': 'Journal of Flow Visualization and Image Processing', 'author': 'Kumar, Abhijeet and Sahu, Srikrishna', 'ID': 'kumaroptical', 'ENTRYTYPE': 'article'},
+{'publisher': 'Begel House Inc.', 'author': 'Kumar, Abhijeet and Sahu, Srikrishna', 'journal': 'Journal of Flow Visualization and Image Processing', 'title': 'Optical Visualization and measurement of liquid jet core in a coaxial atomizer with annual swirling air', 'ENTRYTYPE': 'article', 'year': '2019', 'ID': 'kumaroptical'},
 
 {'publisher': 'Elsevier', 'author': 'Manish, M and Sahu, Srikrishna', 'journal': 'Experimental Thermal and Fluid Science', 'title': 'Droplet clustering and local spray unsteadiness in air-assisted sprays', 'ID': 'manish2019droplet', 'volume': '100', 'pages': '89--103', 'year': '2019', 'ENTRYTYPE': 'article'},
 
