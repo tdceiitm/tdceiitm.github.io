@@ -2,7 +2,6 @@
 layout: post
 title: Launching our lab website
 img: /images/launch.jpeg
-
 categories: news
 ---
 Dear Faculty members, <br>
