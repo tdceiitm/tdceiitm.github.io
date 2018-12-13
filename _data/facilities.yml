@@ -56,9 +56,16 @@
   image: ./images/facilities/facility_default.jpg
   caption: "Caption comes here ..."
 
-- title: Anechoic chamber and jet testing
+- title: Jet test facility
   type: inhouse
-  incharge: K. Srinivasan
-  description: 
-  image: ./images/facilities/facility_default.jpg
-  caption: "Caption comes here ..."
+  incharge: Srinivasn K
+  description: The cold free-jet test facility consists of a Khosla-Crepelle compressor,two storage tanks and pipeline system supplying compressed air to all rooms in the laboratory. The air is pressurized using a 150 HP 2-stage, inter-cooled reciprocating air compressor driven by a three phase induction motor. It can pressurize the air up to 8 bars absolute. The compressed air is stored in two separate storage tanks of total capacity of 20 m3. The compressed air is supplied to the experimental area from storage tanks through 4-inch plumbing. 
+  image: 
+  caption:
+
+- title: Anechoic chamber
+  type: inhouse
+  incharge: Srinivasan K
+  description: Anechoic chamber serves as a free-field environment for the study of jet noise. It restricts the sound reflections and insulates the acoustic data from external noise. It is of the dimension 2.5 m x 2 m x 2 m. Square pyramidal wedges made of polyurethane foam are adhered to the walls of the chamber except the floor and the floor is lined with carpet. It is calibrated by inverse square law and has cut-off frequency 630 Hz.
+  image: ./images/facilities/Anechoic_chamber.jpg
+  caption:
