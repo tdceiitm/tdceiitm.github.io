@@ -95,6 +95,8 @@
 
 {'publisher': 'Elsevier', 'author': 'Sabareesh, V Boopathi and Srinivasan, K and Sundararajan, T', 'journal': 'Journal of Sound and Vibration', 'title': 'Acoustic characteristics of equal and unequal twin circular slot jets', 'ID': 'sabareesh2015acoustic', 'volume': '342', 'pages': '90--112', 'year': '2015', 'ENTRYTYPE': 'article'},
 
-{'publisher': 'American Institute of Aeronautics and Astronautics', 'author': 'Ashokkumar, R and Sankaran, S and Srinivasan, K and Sundararajan, T', 'journal': 'Journal of Propulsion and Power', 'title': 'Effects of vacuum chamber and reverse flow on supersonic exhaust diffuser starting', 'number': '2', 'ID': 'ashokkumar2015effects', 'volume': '31', 'pages': '750--754', 'year': '2015', 'ENTRYTYPE': 'article'}
+{'publisher': 'American Institute of Aeronautics and Astronautics', 'author': 'Ashokkumar, R and Sankaran, S and Srinivasan, K and Sundararajan, T', 'journal': 'Journal of Propulsion and Power', 'title': 'Effects of vacuum chamber and reverse flow on supersonic exhaust diffuser starting', 'number': '2', 'ID': 'ashokkumar2015effects', 'volume': '31', 'pages': '750--754', 'year': '2015', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'Elsevier', 'author': 'Prasad, M Jogendra and Sundararajan, T', 'journal': 'International Journal of Heat and Fluid Flow', 'title': 'Numerical simulation of fuel mixing with air in laminar buoyant vortex rings', 'ID': 'prasad2016numerical', 'volume': '62', 'pages': '174--188', 'year': '2016', 'ENTRYTYPE': 'article'}
 
 ]
