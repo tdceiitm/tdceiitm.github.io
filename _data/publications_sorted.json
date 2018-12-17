@@ -73,7 +73,7 @@
 
 {'publisher': 'Elsevier', 'author': 'Dhamanekar, Abhijit and Srinivasan, K', 'journal': 'Journal of Sound and Vibration', 'title': 'Mitigation of impinging tones using central protrusion', 'ID': 'dhamanekar2018mitigation', 'volume': '433', 'pages': '160--178', 'year': '2018', 'ENTRYTYPE': 'article'},
 
-{'publisher': 'Begel House Inc.', 'author': 'Muthuselvan, Govindaraj and Ghate, Kushal D and Rao, Muralidhara Suryanarayana and Iyengar, Venkat S and Thirumalachari, Sundararajan and Kothandaraman, Srinivasan', 'journal': 'Atomization and Sprays', 'title': 'EXPERIMENTAL STUDY OF SPRAY BREAKUP PHENOMENA IN SMALL-SCALE SIMPLEX ATOMIZERS WITH AND WITHOUT AIR SWIRL', 'number': '4', 'ENTRYTYPE': 'article', 'volume': '28', 'year': '2018', 'ID': 'muthuselvan2018experimental'},
+{'publisher': 'Begel House Inc.', 'author': 'Muthuselvan, Govindaraj and Ghate, Kushal D and Rao, Muralidhara Suryanarayana and Iyengar, Venkat S and Thirumalachari, Sundararajan and Kothandaraman, Srinivasan', 'journal': 'Atomization and Sprays', 'title': 'Experimenal study of spray breakup phenomena in small-scale simplex atomizers with and without air swirl', 'number': '4', 'ENTRYTYPE': 'article', 'volume': '28', 'year': '2018', 'ID': 'muthuselvan2018experimental'},
 
 {'publisher': 'Elsevier', 'author': 'Dhamanekar, Abhijit and Srinivasan, K', 'journal': 'Applied Acoustics', 'title': 'Effect of plate inclination on the noise of impinging jets', 'ID': 'dhamanekar2017effect', 'volume': '127', 'pages': '354--364', 'year': '2017', 'ENTRYTYPE': 'article'},
 
@@ -97,6 +97,8 @@
 
 {'publisher': 'American Institute of Aeronautics and Astronautics', 'author': 'Ashokkumar, R and Sankaran, S and Srinivasan, K and Sundararajan, T', 'journal': 'Journal of Propulsion and Power', 'title': 'Effects of vacuum chamber and reverse flow on supersonic exhaust diffuser starting', 'number': '2', 'ID': 'ashokkumar2015effects', 'volume': '31', 'pages': '750--754', 'year': '2015', 'ENTRYTYPE': 'article'},
 
-{'publisher': 'Elsevier', 'author': 'Prasad, M Jogendra and Sundararajan, T', 'journal': 'International Journal of Heat and Fluid Flow', 'title': 'Numerical simulation of fuel mixing with air in laminar buoyant vortex rings', 'ID': 'prasad2016numerical', 'volume': '62', 'pages': '174--188', 'year': '2016', 'ENTRYTYPE': 'article'}
+{'publisher': 'Elsevier', 'author': 'Prasad, M Jogendra and Sundararajan, T', 'journal': 'International Journal of Heat and Fluid Flow', 'title': 'Numerical simulation of fuel mixing with air in laminar buoyant vortex rings', 'ID': 'prasad2016numerical', 'volume': '62', 'pages': '174--188', 'year': '2016', 'ENTRYTYPE': 'article'},
+
+{'publisher': 'SAGE Publications Sage UK: London, England', 'author': 'Ghate, Kushal and Sundararajan, Thirumalachari', 'journal': 'Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering', 'title': 'Effects of orifice divergence on hollow cone spray at low injection pressures', 'ID': 'ghate2018effects', 'pages': '0954410018813432', 'year': '2018', 'ENTRYTYPE': 'article'}
 
 ]
