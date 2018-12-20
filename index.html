@@ -45,8 +45,8 @@ layout: home
 
       <div class="row">
 
-        <div class="col-sm-7 news" >
-          <h3 class="section-title pl-0"> News </h3>
+        <div class="col-sm-6 news" >
+<!--          <h3 class="section-title pl-0"> News </h3>
 
           {% for post in site.categories["news"] limit:5 %}
           <div class="card drop-shadow"> 
@@ -66,9 +66,28 @@ layout: home
             </div>
           </div>
         {% endfor %}
+-->		
+          <h3 class="section-title pl-0"> Upcoming conferences </h3>
+
+          {% for post in site.categories["conference"] limit:5 %}
+          <div class="card drop-shadow"> 
+            <div class="row no-gutters ">
+            <div class="card-body col-12">
+              <a class="card-title" href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+              <p class="card-text">
+                {{ post.excerpt | remove: '<p>' | remove: '</p>'  }}
+              </p>
+            </div>
+            </div>
+          </div>
+        {% endfor %}
+		
+		
         </div>
 
-        <div class="col-sm-5 events">
+        <div class="col-sm-6 events">
 
           <h3 class="section-title pl-0"> Events </h3> 
 

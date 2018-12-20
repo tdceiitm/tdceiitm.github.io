@@ -75,6 +75,7 @@ permalink: facilities
             <h2 class="featurette-heading">{{ topic.title }}</h2>
           </div>
         </div>
+		{% unless topic.span contains "full"  %}
         <div class="row featurette">
           <div class="col-md-7 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
@@ -85,6 +86,21 @@ permalink: facilities
             <h5> Faculty incharge: </h5> <p class="lead">{{topic.incharge}} </p>
           </div>
         </div>
+		{% else  %}
+        <div class="row featurette">
+          <div class="col-md-12 ">
+<!--          <div class="col-md-12 {{content_order | prepend: 'order-md-'}}  "> -->
+            <p class="lead">{{ topic.description }}</p>
+          </div>
+          <div class="col-md-12">
+<!--           <div class="col-md-12 {{image_order | prepend: 'order-md-'}} "> -->
+            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+            <p class="lead">{{ topic.caption }}</p>
+            <h5> Faculty incharge: </h5> <p class="lead">{{topic.incharge}} </p>
+          </div>
+        </div>
+		{% endunless %}
+		
       {% endif %}
     {% endfor %}
 </div>
