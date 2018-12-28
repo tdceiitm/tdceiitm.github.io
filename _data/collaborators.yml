@@ -1,9 +1,7 @@
 - name: dst
   image: dst.jpeg
-- name: ge
-  image: ge.png
-- name: flsmidth
-  image: flsmidth.png
+- name: thermax
+  image: thermax.jpg
 - name: isro
   image: isro.png
 - name: drdo

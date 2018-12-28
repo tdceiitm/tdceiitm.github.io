@@ -27,36 +27,13 @@ permalink: joinUs
   </div>
 
 
- <div class="row">
-  <div class="col-12">
-  <h3 class="section-title">Project Associates</h3>
-  <p class="lead">Directly contact the faculty incharge if interested in any of these topics with your detailed CV and your Statement of Purpose.</p>
-
-   <!-- <hr class="featurette-divider" id="rs-topic-projects">
-    <hr class="featurette-divider " > -->
-     <div class="row">
-    
-    {% for project in site.project %} 
-      {% if project.type contains "project" %}
-    <div class="card col-sm-12  project-card  mb-5">
-     <div class="card-body drop-shadow">
-       <h3 class="card-title">{{ project.title }}</h3>
-       <h4 class="card-subtitle mb-3">{{ project.coordinators }}</h4>
-       <p class="card-text">{{ project.abstract }}</p>
-     </div>
-    </div>
-	{%endif %}
-    {% endfor %}
-    </div>
-
-</div>
-</div>
-
-
+ 
  <div class="row">
   <div class="col-12">
   <h3 class="section-title">PhD/MS</h3>
-  <p class="lead">Applications are invited at anytime from eligible candidates (<a href="https://research.iitm.ac.in/">apply here </a>). Directly contact the faculty incharge if interested in any of these topics.</p>
+  <p class="lead">Applications are invited at anytime from eligible candidates (<a href="https://research.iitm.ac.in/">apply here </a>). 
+	  <!-- Directly contact the faculty incharge if interested in any of these topics. -->
+  </p>
 
       <div class="row">
    {% for project in site.project %} 
@@ -88,6 +65,32 @@ permalink: joinUs
 
 </div>
 </div>
+
+ <div class="row">
+  <div class="col-12">
+  <h3 class="section-title">Project Associates</h3>
+  <p class="lead">Watch this space for future announcements ...</p>
+
+   <!-- <hr class="featurette-divider" id="rs-topic-projects">
+    <hr class="featurette-divider " > -->
+     <div class="row">
+    
+    {% for project in site.project %} 
+      {% if project.type contains "project" %}
+    <div class="card col-sm-12  project-card  mb-5">
+     <div class="card-body drop-shadow">
+       <h3 class="card-title">{{ project.title }}</h3>
+       <h4 class="card-subtitle mb-3">{{ project.coordinators }}</h4>
+       <p class="card-text">{{ project.abstract }}</p>
+     </div>
+    </div>
+	{%endif %}
+    {% endfor %}
+    </div>
+
+</div>
+</div>
+
 
 
  <div class="row">
