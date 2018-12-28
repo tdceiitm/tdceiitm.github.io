@@ -28,7 +28,11 @@ permalink: facilities
  {% for topic in site.data.facilities %}
    {% if topic.type contains "inhouse" %}
      <li class="nav-item">
-       <a class="nav-link " href="{{ topic.title | slugify | prepend: '#'}}"> {{ topic.title }}</a>
+		 {% if topic.short %}
+    	   <a class="nav-link " href="{{ topic.title | slugify | prepend: '#'}}"> {{ topic.short }}</a>
+	     {% else %}
+    	   <a class="nav-link " href="{{ topic.title | slugify | prepend: '#'}}"> {{ topic.title }}</a>
+		 {% endif %}
      </li>
    {% endif %}
  {% endfor %}
@@ -94,7 +98,9 @@ permalink: facilities
           </div>
           <div class="col-md-12">
 <!--           <div class="col-md-12 {{image_order | prepend: 'order-md-'}} "> -->
-            <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			  {% if topic.image %}
+				<img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			  {% endif %}
             <p class="lead">{{ topic.caption }}</p>
             <h5> Faculty incharge: </h5> <p class="lead">{{topic.incharge}} </p>
           </div>
